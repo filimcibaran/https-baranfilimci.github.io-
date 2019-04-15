@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <style>
+        div.sticky {
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 0;
+            padding: 5px;
+            background-image:url("pattern.jpg");
+            border: 0.2px solid black;
+            width: 100%;
+            overflow-x: auto;
+        }
+        body {
+            background-image: url("pattern.jpg");
+        }
+        a:visited {
+            color: blue;
+        }
+        a:hover {
+            color: red;
+        }
+        a:active {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<div class="sticky" align="center">
+    <table>
+        <tr>
+            <th><a href="index.html"><p> Homepage|</p></a></th>
+            <th><a href="films.html"><p>Films|</p></a></th>
+            <th><a href="books.html"><p>Books|</p></a></th>
+            <th><a href="musics.html"><p>Musics|</p></a></th>
+            <th><a href="usefullinks.html"><p>Useful Links|</p></a></th>
+            <th><a href="contactme.html"><p style="font-size:30px">Contact Me</p></a></th>
+            <th><a href="register.html"><p>|Register</p></a></th>
+        </tr>
+    </table></div>
+    <div align="center">
+
+<form action="/action_page.php">
+    Name, Surname:<br>
+    <input type="text" name="Firstname:" ><br>
+    Email: <br>
+    <input type="email" name="email" placeholder="ex: baran@default.com" > <br>
+
+    Telephone :<br>
+    <input type="phone" name="Username:" maxlength="11" placeholder="max length is 11" > <br>
+
+    Issue :<br>
+    <input type="issue" name="Password:" > <br>
+
+    Message: <br>
+    <textarea name="message" rows="10" cols="30"></textarea> <br>
+    <input type="button" onclick="alert('Your message will be answered soon')" value="Send">
+    <h2>OR</h2>
+    <p>You can contact me on <a href="https://www.instagram.com/filimcibaran">Instagram</a> or <a href="https://www.facebook.com/maxson33">Facebook</a> also</p>
+    <a href="index.html"><img src="home.png" alt="home" width="100" height="100"></a> <br>
+    <a href="https://www.instagram.com/filimcibaran"><img src="instagram.jpg" alt="inst" width="150" height="100"></a>
+    <a href="https://www.facebook.com/maxson33"><img src="facebook.png" alt="face" width="100" height="100"></a>
+</form> </div>
+</body>
+</html>
